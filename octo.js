@@ -1,7 +1,7 @@
 const url = (document.URL).substr((document.URL).indexOf("?")+1);
 const display = document.querySelector("#heart");
 
-for (let i = 0; i < url.length && i <= 100; i++){
+for (let i = 0; i < url.length && i <= 120; i++){
   if(url.substr(i,1) == 'h')
     display.innerHTML += "<img src=\"img/octopus.png\">";
   else if(url.substr(i,1) == 'o')
