@@ -5,3 +5,7 @@ body {
   align-items: center;
   background-color: #36393f;
 }
+
+#heart {
+  text-align: center;
+}
