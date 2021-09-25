@@ -1,6 +1,19 @@
+html {
+  --windowSize: 100vh;
+}
+
+@media only screen and (orientation: portrait) {
+  html{
+    --windowSize: 100vw;
+  }
+}
+
 body {
-  height: 90vh;
+  margin: 0;
+  padding: 10px;
+  height: var(--windowSize);
   display: flex;
+  align-self: top;
   justify-content: center;
   align-items: center;
   background-color: #36393f;
